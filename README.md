@@ -1,6 +1,6 @@
 ##### Autor Aquiles Mauro Vieira Caetano(Zero ILumi)
-##### Link do GitHub: https://github.com/ZeroILumi.
-##### Link do Linkedin: https://www.linkedin.com/in/aquiles-mauro-96b0a3176/.
+##### Link do GitHub: https://github.com/ZeroILumi.{:target="_blank"}
+##### Link do Linkedin: https://www.linkedin.com/in/aquiles-mauro-96b0a3176/.{:target="_blank"}
 # Apresentação Pratica de C#:
   * ## Lista de Assuntos tratados nesse projeto:
     1. [x] Instalando ou Atualizando o SDK do .NET.  
