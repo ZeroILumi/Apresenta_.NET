@@ -12,6 +12,7 @@
  	7. [x] (7) Usando a ajuda do .NET com o comando "dotnet --help" na CLI(Command-Line Interface).
 	8. [x] (8) Usando a ajuda do .NET em comandos específicos com o comando "dotnet "comando" --help" na CLI(Command-Line Interface).
 	9. [x] (9) Verificando as informações do .NET em geral na CLI(Command-Line Interface) com o comando "dotnet --info".
+	10. [x] (10) Verificando os possíveis Templates\Modelos de projetos .NET com o comando de CLI(Command-Line Interface) "dotnet new --list".
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
@@ -48,4 +49,9 @@
     * #### Qual e o Host do SDK do .NET, em qual versão ele esta e qual o sha1 de seu commit;
     * #### Quais são todas as SDKs do .NET que estão instaladas em seu computador, com suas versões e onde estão instaladas;
 	* #### Quais são todos os .NET Runtimes que estão instalados em seu computador, com seus nomes, versões, caminhos onde estão instaladas.
-
+## Assunto de número(10):
+  * #### Para verificarmos quais são os Templates\Modelos de projetos possíveis de se criar com o comando "dotnet new" utilizamos na CLI(Command-Line Interface) o comando "dotnet new --list" que retorna um lista contendo dados sobre os Templates\Modelos de projeto possíveis de se criar com o comando "dotnet new" são esses:
+    * #### Nome do Template\Modelo;
+	* #### Nome Curto do Template\Modelo;
+	* #### Linguagem de programação do Template\Modelo.
+	
