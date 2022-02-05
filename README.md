@@ -14,7 +14,8 @@
 	9. [x] (9) Verificando as informações do .NET em geral na CLI(Command-Line Interface) com o comando "dotnet --info".
 	10. [x] (10) Verificando os possíveis Templates\Modelos de projetos .NET com o comando de CLI(Command-Line Interface) "dotnet new --list".
 	11. [x] (11) Criando um .gitignore para C# com o comando de CLI(Command-Line Interface) "dotnet new gitignore".
-	12. [ ] (12) 
+	12. [x] (12) Criando uma aplicação\projeto do tipo Console para executar no terminal ou CLI(Command-Line Interface) com o comando de CLI(Command-Line Interface)  "dotnet new console -n "nome_do_projeto"".
+	13. [ ] (13) Executando nossa aplicação\projeto dentro do terminal ou CLI(Command-Line Interface) com o comando de CLI(Command-Line Interface) "dotnet run".
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
@@ -58,3 +59,7 @@
 	* #### Linguagem de programação do Template\Modelo.
 ## Assunto de número(11):
   * #### Para criarmos um .gitignore de C# automaticamente podemos utilizar o comando de CLI(Command-Line Interface) "dotnet new gitignore" do qual ira criar um arquivo .gitignore pre pronto com todos os arquivos que devem ser ignorados pelo git referentes ao .NET e C#.
+## Assunto de número(12):
+  * #### Para criarmos uma aplicação\projeto do tipo Console para que o possamos executar em um terminal ou em uma CLI(Command-Line Interface) utilizamos o comando de CLI(Command-Line Interface) "dotnet new console -n "nome_do_projeto"" e no lugar de "nome_do_projeto" colocamos o nome do qual nosso projeto tera, esse comando trara como retorno a criação de uma pasta com o nome do nosso projeto contendo os arquivos de nosso projeto Console, incluindo o arquivo "nome_do_projeto".csproj e o Program.cs do qual sera o arquivo inicial do nosso projeto Console.
+## Assunto de número(13):
+  * #### Para executarmos nossa aplicação\projeto de Console no terminal ou na CLI(Command-Line Interface) utilizamos o comando de CLI(Command-Line Interface) "dotnet run" esse comando trara como retorno a execução e processamento de nossos códigos no Program.cs e retornara os dados que devem ser impressos\exibidos no terminal ou CLI(Command-Line Interface).
