@@ -69,4 +69,4 @@
 ## Assunto de número(14):
   * #### Para restaurarmos os pacotes de nosso projetos C# utilizamos o comando de CLI(Command-Line Interface) "dotnet restore", esse comando retorna a restauração de todos os pacotes atrelados ao nosso projeto arrumando e atualizando os mesmos.
 ## Assunto de número(15):
-  * #### Para compilarmos\montamos os códigos de nosso projeto C# sem executá-lo utilizamos o comando de CLI(Command-Line Interface) "dotnet build", esse comando retorna a restauração dos pacotes do projeto e o compila sem o executar e mostra a quantidade de Avisos e Erros sobre o mesmo essa compilação\montagem gera os arquivos .dll e .exe do projeto C#.
+  * #### Para compilarmos\montamos os códigos de nosso projeto C# sem executá-lo utilizamos o comando de CLI(Command-Line Interface) "dotnet build", esse comando retorna a restauração dos pacotes do projeto e o compila sem o executar e mostra a quantidade de Avisos e Erros sobre o mesmo essa compilação\montagem gera os arquivos .dll, .exe e .pdb(são os pontos de debug que tem no projeto) do projeto C#.
