@@ -3,12 +3,12 @@
 ##### Link do Linkedin: https://www.linkedin.com/in/aquiles-mauro-96b0a3176/.
 # Apresentação Pratica de C#:
   * ## Lista de Assuntos tratados nesse projeto:
-    (1.) [x] Instalando ou Atualizando o SDK do .NET.   
-    2. [x] Verificando qual a versão do .NET esta sendo utilizada.
-	3. [x] Instalando ou Atualizando(por fora nesse caso) nossa IDE(Integrated Development Environment) o Visual Studio Code.
-	4. [x] Instalando a Extensão/Plug-in Portuguese (Brazil) Language Pack for Visual Studio Code para deixar o Visual Studio Code em Português do Brasil.
-	5. [x] Instalando a Extensão/Plug-in "C#" para permitir a utilização de códigos C# no Visual Studio Code.
-	6. [x] Instalando a Extensão/Plug-in "C# Extensions" do Autor "jchannon" para facilitar o trabalha com "C#" no Visual Studio Code.
+    1. [x] (1) Instalando ou Atualizando o SDK do .NET.   
+    2. [x] (2) Verificando qual a versão do .NET esta sendo utilizada.
+	3. [x] (3) Instalando ou Atualizando(por fora nesse caso) nossa IDE(Integrated Development Environment) o Visual Studio Code.
+	4. [x] (4) Instalando a Extensão/Plug-in Portuguese (Brazil) Language Pack for Visual Studio Code para deixar o Visual Studio Code em Português do Brasil.
+	5. [x] (5) Instalando a Extensão/Plug-in "C#" para permitir a utilização de códigos C# no Visual Studio Code.
+	6. [x] (6) Instalando a Extensão/Plug-in "C# Extensions" do Autor "jchannon" para facilitar o trabalha com "C#" no Visual Studio Code.
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
