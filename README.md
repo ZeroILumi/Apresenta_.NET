@@ -15,8 +15,8 @@
 ## Assunto de número(3):
   * #### Para instalarmos a IDE(Integrated Development Environment) que sera utilizada para escrever os códigos em breve apresentados o Visual Studio Code devemos ir no link: https://code.visualstudio.com/download, escolher os Sistema Operacional no meu o caso o Windows 10 e escolher entre a versão de 64bits ou 32bits dependendo do seu computador e instalar o "System Installer" depois instalar o Visual Studio Code através do que foi baixado e ele já esta pronto para iniciar a escrita de códigos C# no caso mais não se limita a isso aceitando quasse qualquer linguagem.
 ## Assunto de número(4):
-  * #### Dentro do Visual Studio Code vá nesse icone:
-  ![Imagem de Extensão/Plug-in VS Code](Imagens_README/Extensoes_VS_Code_Imagem.png)
+  * #### Para deixar o Visual Studio Code em Português do Brasil devemos utilizar a Extensão/Plug-in "Portuguese (Brazil) Language Pack for Visual Studio Code"; Dentro do Visual Studio Code vá nesse icone:
+    ![Imagem de Extensão/Plug-in VS Code](Imagens_README/Extensoes_VS_Code_Imagem.png)
   * #### E procure na busca a Extensão/Plug-in Portuguese (Brazil) Language Pack for Visual Studio Code, depois clicar em install e espere instalar depois reinicie o Visual Studio Code.
   
 
