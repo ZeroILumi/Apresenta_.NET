@@ -19,7 +19,9 @@
 	14. [x] (14) Restaurando pacotes do projeto C# com o comando de CLI(Command-Line Interface) "dotnet restore".
 	15. [x] (15) Compilando o código do nosso projeto sem executá-lo com o comando de CLI(Command-Line Interface) "dotnet build".
     16. [x] (16) Importando o biblioteca System no arquivo Program.cs com a palavra chave using.	
-	17. [ ] (17) 
+	17. [x] (17) Criando o ponto de "start\inicio" do nosso projeto no arquivo Program.cs com a class Program e seu método static void Main(string[] args).  
+	18. [x] (18) Criando um namespace para nosso arquivo Program.cs para permitir a importação de seu conteúdo por outros arquivos com a palavra chave namespace.
+	19. [ ] (19) 
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
@@ -73,3 +75,7 @@
   * #### Para compilarmos\montamos os códigos de nosso projeto C# sem executá-lo utilizamos o comando de CLI(Command-Line Interface) "dotnet build", esse comando retorna a restauração dos pacotes do projeto e o compila sem o executar e mostra a quantidade de Avisos e Erros sobre o mesmo essa compilação\montagem gera os arquivos .dll, .exe e .pdb(são os pontos de debug que tem no projeto) e alguns arquivos relacionado a dependências do projeto C#.
 ## Assunto de número(16):
   * #### Vamos importar a biblioteca System com a palavra chave using, a palavra chave using nos permite importa bibliotecas, pacotes, arquivos, pastas entre outras coisas para o arquivo da qual ela esta presente escrevendo "using "namespace_do_que_vai_ser_importado_para_o_arquivo_atual"" depois no lugar de "namespace_do_que_vai_ser_importado_para_o_arquivo_atual" coloca-se o namespace da biblioteca, pacote, arquivo que se deseja importar para o arquivo atual. 
+## Assunto de número(17):
+  * #### Vamos criar um ponto de "start\inicio" para a nosso projeto no arquivo Program.cs com a class Program e seu método static void Main(string[] args), isso para quando dermos o comando dotnet run execute o que estiver dentro do método Main() da class Program no arquivo Program.cs, o retorno desse método Main() se da nessa execução de código.
+## Assunto de número(18):
+  * #### Para permitir a importação do conteúdo de nosso arquivo Program.cs utilizaremos um namespace que e criado com a palavra chave "namespace "nome_do_namespace"" no lugar de "nome_do_namespace" coloca-se o nome do qual devera ser escrito no using para importar o conteúdo deste arquivo em outros arquivos. 
