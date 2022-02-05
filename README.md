@@ -10,7 +10,8 @@
 	5. [x] (5) Instalando a Extensão/Plug-in "C#" para permitir a utilização de códigos C# no Visual Studio Code.
 	6. [x] (6) Instalando a Extensão/Plug-in "C# Extensions" do Autor "jchannon" para facilitar o trabalha com "C#" no Visual Studio Code.
  	7. [x] (7) Usando a ajuda do .NET com o comando "dotnet --help" na CLI(Command-Line Interface).
-	8. [x] (8) Usando a ajudo do .NET em comandos específicos com o comando "dotnet "comando" --help" na CLI(Command-Line Interface).
+	8. [x] (8) Usando a ajuda do .NET em comandos específicos com o comando "dotnet "comando" --help" na CLI(Command-Line Interface).
+	9. [ ] (9)  
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
