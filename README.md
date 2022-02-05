@@ -11,7 +11,7 @@
 	6. [x] (6) Instalando a Extensão/Plug-in "C# Extensions" do Autor "jchannon" para facilitar o trabalha com "C#" no Visual Studio Code.
  	7. [x] (7) Usando a ajuda do .NET com o comando "dotnet --help" na CLI(Command-Line Interface).
 	8. [x] (8) Usando a ajuda do .NET em comandos específicos com o comando "dotnet "comando" --help" na CLI(Command-Line Interface).
-	9. [ ] (9)  
+	9. [x] (9) Verificando as informações do .NET em geral na CLI(Command-Line Interface) com o comando "dotnet --info".
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
@@ -40,4 +40,12 @@
     * #### Comandos adicionais de ferramentas em pacote.
 ## Assunto de número(8):
   * #### Para conseguirmos uma ajuda sobre um comando especifico do .NET devemos executar na CLI(Command-Line Interface), o comando "dotnet "comando" --help" e no lugar de "comando" colocamos o comando do .NET do qual queremos mais informações como por exemplo "dotnet add --help". 
+## Assunto de número(9):
+  * #### Para verificarmos informações sobre o .NET em geral utilizamos na CLI(Command-Line Interface) o comando "dotnet --info" que nos retorna as seguintes informações sobre o .NET:
+    * #### A versão mais atual da SDK que temos instalada do .NET;
+	* #### O sha1 do commit da SDK;
+	* #### Qual e o Ambiente de runtime, ou seja qual e o nome do sistema operacional, a versão do sistema operacional, a plataforma do sistema operacional, a RID do sistema operacional, e o BasePath(Onde o SDK do .NET esta instalado na maquina).
+    * #### Qual e o Host do SDK do .NET, em qual versão ele esta e qual o sha1 de seu commit;
+    * #### Quais são todas as SDKs do .NET que estão instaladas em seu computador, com suas versões e onde estão instaladas;
+	* #### Quais são todos os .NET Runtimes que estão instalados em seu computador, com seus nomes, versões, caminhos onde estão instaladas.
 
