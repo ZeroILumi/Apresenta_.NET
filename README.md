@@ -17,7 +17,7 @@
 	12. [x] (12) Criando uma aplicação\projeto do tipo Console para executar no terminal ou CLI(Command-Line Interface) com o comando de CLI(Command-Line Interface)  "dotnet new console -n "nome_do_projeto"".
 	13. [x] (13) Executando nossa aplicação\projeto dentro do terminal ou CLI(Command-Line Interface) com o comando de CLI(Command-Line Interface) "dotnet run".
 	14. [x] (14) Restaurando pacotes do projeto C# com o comando de CLI(Command-Line Interface) "dotnet restore".
-	15. [ ] (15) Compilando o código do nosso projeto sem executá-lo com o comando de CLI(Command-Line Interface) "dotnet build".
+	15. [x] (15) Compilando o código do nosso projeto sem executá-lo com o comando de CLI(Command-Line Interface) "dotnet build".
     16. [ ] (16) 	
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
