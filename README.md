@@ -13,6 +13,8 @@
 	8. [x] (8) Usando a ajuda do .NET em comandos específicos com o comando "dotnet "comando" --help" na CLI(Command-Line Interface).
 	9. [x] (9) Verificando as informações do .NET em geral na CLI(Command-Line Interface) com o comando "dotnet --info".
 	10. [x] (10) Verificando os possíveis Templates\Modelos de projetos .NET com o comando de CLI(Command-Line Interface) "dotnet new --list".
+	11. [x] (11) Criando um .gitignore para C# com o comando de CLI(Command-Line Interface) "dotnet new gitignore".
+	12. [ ] (12) 
 ##  Assunto de número(1):
   * #### Para instalarmos o SDK(Software Development Kit) do .NET para começarmos a utilizar o mesmo temos que ir para a pagina no link: https://dotnet.microsoft.com/en-us/download, depois e necessário clicar em "Download .NET SDK x64" caso sua maquina utilize 64bits no caso a minha utiliza, vou utilizar o .NET 6.0 porém caso eu queira ou necessite utilizar de uma versão mais antiga do .NET basta somente eu clicar em "All .NET versions" e poderei baixar as versões ate o .NET Core 1.0 no presente momento, depois instale o SDK que foi baixado e pronto já pode utilizar o .NET.
 ## Assunto de número(2):
@@ -54,4 +56,5 @@
     * #### Nome do Template\Modelo;
 	* #### Nome Curto do Template\Modelo;
 	* #### Linguagem de programação do Template\Modelo.
-	
+## Assunto de número(11):
+  * #### Para criarmos um .gitignore de C# automaticamente podemos utilizar o comando de CLI(Command-Line Interface) "dotnet new gitignore" do qual ira criar um arquivo .gitignore pre pronto com todos os arquivos que devem ser ignorados pelo git referentes ao .NET e C#.
