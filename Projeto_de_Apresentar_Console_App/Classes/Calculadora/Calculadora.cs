@@ -1,4 +1,4 @@
-namespace Projeto_de_Apresentar_Console_App.Calculadoras
+namespace Projeto_de_Apresentar_Console_App.Classes.NameSpace_Calculadora
 {
     public class Calculadora
     {
