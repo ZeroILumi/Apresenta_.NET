@@ -41,8 +41,26 @@ namespace Projeto_de_Apresentar_Console_App
     {
         static void Main(string[] args)
         {
-            Calculadora.Executar_Todos_os_Calculos();
-            Repetidor_de_Textos.Repetir_Textos();
+            string opcao_usuario = Obter_Opcao_Usuario();
+
+            while(opcao_usuario.ToUpper() != "X")
+            {
+                switch(opcao_usuario)
+                {
+                    case "1":
+                        Calculadora.Executar_Todos_os_Calculos();
+                        break;
+                    case "2":
+                        Repetidor_de_Textos.Repetir_Textos();
+                        break;
+                    default:
+                        System.Console.WriteLine("Digite um valor valido");
+                        System.Console.WriteLine();
+                        break;
+                }
+
+                opcao_usuario = Obter_Opcao_Usuario();
+            }
             /*  
                 Execução de uma Impresão\Escrita de dados no 
                 terminal ou CLI(Command-Line Interface) com 
@@ -59,7 +77,17 @@ namespace Projeto_de_Apresentar_Console_App
                 s.Desempilha();
             */
 
+        }
+        private static string Obter_Opcao_Usuario()
+        {
+            System.Console.WriteLine("Digite a opção desejada");
+            System.Console.WriteLine("1- Realizar todos os calculos da Calculadora");
+            System.Console.WriteLine("2- Criar um loop");
+            System.Console.WriteLine("X- Sair");
+            System.Console.WriteLine();
 
+            string opcao_usuario = System.Console.ReadLine();
+            return opcao_usuario;
         }
     }
 }
