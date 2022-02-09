@@ -38,7 +38,7 @@ namespace Projeto_de_Apresentar_Console_App.Classes.Pilha.NameSpace_Pilha
             // que e seu valor atual assim tirando esse valor atual da pilha em primeiro
             // tornando seu valor antigo seu novo valor atual
             primeiro = primeiro.proximo;
-            // returna o valor antigo
+            // retorna o valor antigo
             return resultado;
         }
         // Classe Posição
