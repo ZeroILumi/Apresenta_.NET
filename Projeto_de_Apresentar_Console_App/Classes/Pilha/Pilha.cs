@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projeto_de_Apresentar_Console_App.Classes.NameSpace_Pilha
+namespace Projeto_de_Apresentar_Console_App.Classes.Pilha.NameSpace_Pilha
 {
   //Criase um Classe Para Representar um Pilha 
     public class Pilha_Classe

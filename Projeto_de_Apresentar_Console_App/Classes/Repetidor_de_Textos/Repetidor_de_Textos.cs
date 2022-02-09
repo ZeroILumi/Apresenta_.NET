@@ -1,4 +1,4 @@
-namespace Projeto_de_Apresentar_Console_App.Classes.NameSpace_Repetidor_de_Textos
+namespace Projeto_de_Apresentar_Console_App.Classes.Repetidor_de_Textos.NameSpace_Repetidor_de_Textos
 {
     public class Repetidor_de_Textos
     {
@@ -59,7 +59,7 @@ namespace Projeto_de_Apresentar_Console_App.Classes.NameSpace_Repetidor_de_Texto
             */
 
             
-            for(int i = 0; i < numero_de_vezes; i++)
+            for(int i = 1; i < numero_de_vezes+1; i++)
             {
                 /*
                     Para interpolar\juntar um texto 
