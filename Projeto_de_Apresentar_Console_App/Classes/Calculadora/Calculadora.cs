@@ -71,15 +71,10 @@ namespace Projeto_de_Apresentar_Console_App.Classes.Calculadora.NameSpace_Calcul
                        "Erro: Não pode haver divisão por 0"; 
             }
         }
-        public static void Executar_Todos_os_Calculos()
+
+        public static decimal Retornar_um_numero_decimal()
         {
-            /*
-                Execução da Calculadora.
-            */
-
-            System.Console.WriteLine("Digite o valor 1:");
-            decimal valor1;
-
+            System.Console.WriteLine("Digite um valor");
             /*
                 Para só aceitar valores decimal\decimals do System.Console.ReadLine() 
                 utilizaremos um laço de repetição 
@@ -88,7 +83,8 @@ namespace Projeto_de_Apresentar_Console_App.Classes.Calculadora.NameSpace_Calcul
                 a condição for FALSA\FALSE devido a palavra chave break 
                 a qual quebrara e sairá do laço de repetição While(true).
             */
-
+            while(true)
+            {
             /*
                 Para testar se o input\entrada de dados 
                 do usuário e um número decimal\decimal 
@@ -131,33 +127,26 @@ namespace Projeto_de_Apresentar_Console_App.Classes.Calculadora.NameSpace_Calcul
                 no lugar de "valor_a_ser_convertido_em_decimal" e esse valor 
                 vem do Retorno do System.Console.ReadLine().
             */
-
-            while(true)
-            {
-                if(decimal.TryParse(System.Console.ReadLine(), out valor1))
+                if(decimal.TryParse(System.Console.ReadLine(), out decimal valor))
                 {
-                    break;
+                    return valor;
                 }
                 System.Console.WriteLine("Valor Invalido\n"+
                                         "Digite um número decimal:");
             }
-            System.Console.WriteLine("Digite o valor 2:");
-            decimal valor2;
-            while(true)
-            {
-                if(decimal.TryParse(System.Console.ReadLine(), out valor2))
-                {
-                    break;
-                }
-                System.Console.WriteLine("Valor Invalido\n"+
-                                        "Digite um número decimal:");
-            }
+        }
+        public static void Executar_Todos_os_Calculos()
+        {
+            /*
+                Execução da Calculadora.
+            */
+            decimal valor1 = Retornar_um_numero_decimal();
+            decimal valor2 = Retornar_um_numero_decimal();
             System.Console.WriteLine(Calculadora.Somar(valor1, valor2));
             System.Console.WriteLine(Calculadora.Multiplicar(valor1, valor2));
             System.Console.WriteLine(Calculadora.Subtrair(valor1, valor2));
             System.Console.WriteLine(Calculadora.Dividir(valor1, valor2));
             System.Console.WriteLine(Calculadora.Resto_da_Divisão(valor1, valor2));
-            
         }
     }
 }

@@ -45,7 +45,7 @@ namespace Projeto_de_Apresentar_Console_App
     {
         static void Main(string[] args)
         {
-            /*
+            
             // Criando um array do tipo aluno com o limite de 5 alunos no maximo.
             Aluno[] alunos = new Aluno[5];
             int indice_aluno = 0;
@@ -62,152 +62,32 @@ namespace Projeto_de_Apresentar_Console_App
                             switch(opcao_usuario_calculadora)
                             {
                                 case "1":
-                                    decimal valor_1_soma;
-                                    decimal valor_2_soma;
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 1");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor1))
-                                        {
-                                            valor_1_soma = valor1;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 2");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor2))
-                                        {
-                                            valor_2_soma = valor2;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
+                                    decimal valor_1_soma = Calculadora.Retornar_um_numero_decimal();
+                                    decimal valor_2_soma = Calculadora.Retornar_um_numero_decimal();
                                     System.Console.WriteLine(Calculadora.Somar(
                                         valor_1_soma, valor_2_soma));
                                     break;
                                 case "2":
-                                    decimal valor_1_subtracao;
-                                    decimal valor_2_subtracao;
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 1");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor1))
-                                        {
-                                            valor_1_subtracao = valor1;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 2");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor2))
-                                        {
-                                            valor_2_subtracao = valor2;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
+                                    decimal valor_1_subtracao = Calculadora.Retornar_um_numero_decimal();
+                                    decimal valor_2_subtracao = Calculadora.Retornar_um_numero_decimal();
                                     System.Console.WriteLine(Calculadora.Subtrair(
                                         valor_1_subtracao, valor_2_subtracao));
                                     break;
                                 case "3":
-                                    decimal valor_1_multiplicacao;
-                                    decimal valor_2_multiplicacao;
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 1");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor1))
-                                        {
-                                            valor_1_multiplicacao = valor1;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 2");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor2))
-                                        {
-                                            valor_2_multiplicacao = valor2;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
+                                    decimal valor_1_multiplicacao = Calculadora.Retornar_um_numero_decimal();
+                                    decimal valor_2_multiplicacao = Calculadora.Retornar_um_numero_decimal();
                                     System.Console.WriteLine(Calculadora.Multiplicar(
                                         valor_1_multiplicacao, valor_2_multiplicacao));
                                     break;
                                 case "4":
-                                    decimal valor_1_divisao;
-                                    decimal valor_2_divisao;
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 1");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor1))
-                                        {
-                                            valor_1_divisao = valor1;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 2");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor2))
-                                        {
-                                            valor_2_divisao = valor2;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
+                                    decimal valor_1_divisao = Calculadora.Retornar_um_numero_decimal();
+                                    decimal valor_2_divisao = Calculadora.Retornar_um_numero_decimal();
                                     System.Console.WriteLine(Calculadora.Dividir(
                                         valor_1_divisao, valor_2_divisao));
                                     break;
                                 case "5":
-                                    decimal valor_1_resto_da_divisao;
-                                    decimal valor_2_resto_da_divisao;
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 1");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor1))
-                                        {
-                                            valor_1_resto_da_divisao = valor1;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
-                                    while(true)
-                                    {
-                                        System.Console.WriteLine("Digite o valor 2");
-                                        if(decimal.TryParse(System.Console.ReadLine(), 
-                                        out decimal valor2))
-                                        {
-                                            valor_2_resto_da_divisao = valor2;
-                                            break;
-                                        }
-                                        System.Console.WriteLine("\nValor Invalido\n"+ 
-                                                                 "Digite um número decimal:");
-                                    }
+                                    decimal valor_1_resto_da_divisao = Calculadora.Retornar_um_numero_decimal();
+                                    decimal valor_2_resto_da_divisao = Calculadora.Retornar_um_numero_decimal();
                                     System.Console.WriteLine(Calculadora.Resto_da_Divisão(
                                         valor_1_resto_da_divisao, valor_2_resto_da_divisao));
                                     break;
@@ -308,7 +188,7 @@ namespace Projeto_de_Apresentar_Console_App
                 s.Empilha(10);
                 s.Desempilha();
             */
-        /*
+        
         }
         private static string Obter_Opcao_Usuario()
         {
@@ -341,8 +221,6 @@ namespace Projeto_de_Apresentar_Console_App
             System.Console.WriteLine("X- Retornar ao Menu Principal");  
             string opcao_usuario_calculadora = System.Console.ReadLine();
             return opcao_usuario_calculadora;
-        }
-        */
         }
     }
 }
