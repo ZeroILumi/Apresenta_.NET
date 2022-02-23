@@ -3,7 +3,8 @@ namespace Projeto_de_Apresentar_Console_App.Classes.Calculadora.NameSpace_Calcul
     public class Calculadora
     {
         private decimal _valor1;
-        public decimal Valor1 { 
+        public decimal Valor1 
+        { 
             get => _valor1;
             set => _valor1 = value; 
         }
@@ -15,8 +16,8 @@ namespace Projeto_de_Apresentar_Console_App.Classes.Calculadora.NameSpace_Calcul
         }
         public Calculadora(decimal valor1, decimal valor2)
         {
-            this._valor1 = valor1;
-            this._valor2 = valor2;
+            this.Valor1 = valor1;
+            this.Valor2 = valor2;
         }
         public static string Somar(decimal valor1, decimal valor2)
         {

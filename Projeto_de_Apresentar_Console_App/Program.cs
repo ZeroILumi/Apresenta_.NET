@@ -45,6 +45,7 @@ namespace Projeto_de_Apresentar_Console_App
     {
         static void Main(string[] args)
         {
+            /*
             // Criando um array do tipo aluno com o limite de 5 alunos no maximo.
             Aluno[] alunos = new Aluno[5];
             int indice_aluno = 0;
@@ -307,7 +308,7 @@ namespace Projeto_de_Apresentar_Console_App
                 s.Empilha(10);
                 s.Desempilha();
             */
-
+        /*
         }
         private static string Obter_Opcao_Usuario()
         {
@@ -340,6 +341,8 @@ namespace Projeto_de_Apresentar_Console_App
             System.Console.WriteLine("X- Retornar ao Menu Principal");  
             string opcao_usuario_calculadora = System.Console.ReadLine();
             return opcao_usuario_calculadora;
+        }
+        */
         }
     }
 }
