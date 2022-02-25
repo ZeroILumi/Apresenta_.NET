@@ -23,6 +23,7 @@ using Projeto_de_Apresentar_Console_App.Classes.Tipo_Ref.NameSpace_Tipo_Ref;
 using Projeto_de_Apresentar_Console_App.Classes.Tipo_Out.NameSpace_Tipo_Out;
 using Projeto_de_Apresentar_Console_App.Classes.Aluno.NameSpace_Aluno;
 using Projeto_de_Apresentar_Console_App.Classes.Conceitos_de_Nota.NameSpace_Conceitos_de_Nota;
+using Projeto_de_Apresentar_Console_App.Classes.Menu_Principal.NameSpace_Menu_Principal;
 
 /*
     Para permitir a importação do conteúdo de nosso arquivo Program.cs utilizaremos 
@@ -49,14 +50,13 @@ namespace Projeto_de_Apresentar_Console_App
             // Criando um array do tipo aluno com o limite de 5 alunos no maximo.
             Aluno[] alunos = new Aluno[5];
             int indice_aluno = 0;
-            string opcao_usuario = Obter_Opcao_Usuario();
-
+            string opcao_usuario = Menu_Principal.Obter_Opcao_Usuario();
             while(opcao_usuario.ToUpper() != "X")
             {
                 switch(opcao_usuario)
                 {
                     case "1":
-                        string opcao_usuario_calculadora = Obter_Opcao_Usuario_Calculadora();
+                        string opcao_usuario_calculadora = Menu_Principal.Obter_Opcao_Usuario_Calculadora();
                         while(opcao_usuario_calculadora.ToUpper() != "X")
                         {
                             switch(opcao_usuario_calculadora)
@@ -98,7 +98,7 @@ namespace Projeto_de_Apresentar_Console_App
                                     System.Console.WriteLine("\nDigite um valor valido:");
                                     break;
                             }
-                            opcao_usuario_calculadora = Obter_Opcao_Usuario_Calculadora();
+                            opcao_usuario_calculadora = Menu_Principal.Obter_Opcao_Usuario_Calculadora();
                         }
                         break;
                     case "2":
@@ -188,39 +188,6 @@ namespace Projeto_de_Apresentar_Console_App
                 s.Empilha(10);
                 s.Desempilha();
             */
-        
-        }
-        private static string Obter_Opcao_Usuario()
-        {
-            System.Console.WriteLine("\nDigite a opção desejada");
-            System.Console.WriteLine("1- Entrar no Menu da Calculadora");  
-            System.Console.WriteLine("2- Criar um loop");
-            System.Console.WriteLine("3- Inverter valores com tipos de ref");
-            System.Console.WriteLine("4- Dividindo valores declarados em "+ 
-                                     "uma chamada de um método "+
-                                     "com tipos de out");
-            System.Console.WriteLine("5- Adicionar novo aluno a lista de alunos");     
-            System.Console.WriteLine("6- Listar todos os alunos na lista de alunos");
-            System.Console.WriteLine("7- Calcular Media Geral dos alunos na lista de alunos");                    
-            System.Console.WriteLine("X- Sair");
-            System.Console.WriteLine();
-
-            string opcao_usuario = System.Console.ReadLine();
-            return opcao_usuario;
-        }
-
-        private static string Obter_Opcao_Usuario_Calculadora()
-        {
-            System.Console.WriteLine("\nDigite a opção desejada:");
-            System.Console.WriteLine("1- Realizar somente a soma de 2 valores");
-            System.Console.WriteLine("2- Realizar somente a subtração de 2 valores");
-            System.Console.WriteLine("3- Realizar somente a multiplicação de 2 valores");
-            System.Console.WriteLine("4- Realizar somente a divisão de 2 valores");
-            System.Console.WriteLine("5- Realizar somente o resto da divisão de 2 valores");
-            System.Console.WriteLine("6- Realizar todos os calculos da Calculadora");
-            System.Console.WriteLine("X- Retornar ao Menu Principal");  
-            string opcao_usuario_calculadora = System.Console.ReadLine();
-            return opcao_usuario_calculadora;
         }
     }
 }
